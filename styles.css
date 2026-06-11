@@ -485,3 +485,101 @@ nav {
     color: #6f5a5a;
     margin-top: 4px;
 }
+
+@media screen and (max-width: 900px) {
+  .hero,
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 6%;
+  }
+
+  .hero-content,
+  .hero-image,
+  .about-image,
+  .about-content {
+    width: 100%;
+  }
+
+  .hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-features {
+    justify-content: center;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 14px 5%;
+  }
+
+  .nav-brand h1 {
+    font-size: 1.25rem;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 48px 5%;
+    gap: 32px;
+  }
+
+  .hero-content h2 {
+    font-size: 2.3rem;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+  }
+
+  .hero-image img,
+  .about-image img {
+    border-radius: 20px;
+  }
+
+  .about {
+    padding: 60px 5%;
+    gap: 34px;
+  }
+
+  .about-content h2,
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .about-features {
+    flex-direction: column;
+  }
+
+  .menu {
+    padding: 60px 5%;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact {
+    padding: 60px 5%;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 24px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
