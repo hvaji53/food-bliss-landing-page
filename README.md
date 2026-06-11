@@ -3,10 +3,10 @@
 A responsive cafe and bakery landing page build with HTML, CSS, and JavaScript. This project was created as a sample business website for a home based dessert/bakery brand.
 
 # Live Demo
-Live Site coming Soon
+[View Live Site](https://food-bliss.netlify.app/)
 
 # GitHub Repository
-Repository Coming Soon
+[View Repository](https://github.com/hvaji53/food-bliss-landing-page)
 
 # Project Overview
 Food Bliss is a clean, mobile friendly landing page for a small food business. The website includes a hero section, about section, menu section, contact section, and an order inquiry form.
