@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Food Bliss</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="nav-brand">
+            <img src="./assets/food-bliss-logo.jpeg" alt="food bliss logo">
+            <h1>Food Bliss</h1>
+        </div>
+
+        <ul id="nav-links" class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="menu-toggle" class="menu-toggle" >☰</button>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-tagline">Love at First Bite</p>
+            <h2>Welcome to Food Bliss</h2>
+            <p class="hero-text">
+                Homemade cakes, desserts, snacks, and treats made for birthdays,
+                gatherings, and sweet everyday cravings.
+            </p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/main-display.jpeg" alt="food bliss cafe bakery">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="./assets/about-display.png" alt="food bliss bakery goods display">
+        </div>
+
+        <div class="about-content">
+            <p class="section-tagline">About Food Bliss</p>
+            <h2>Homemade treats made with care</h2>
+            <p>
+                Food Bliss creates homemade cakes, desserts, snacks, 
+                and sweet treats for birthdays, gatherings, celebrations, 
+                and everyday cravings.
+            </p>
+            <p>
+                Every order is prepared with attention to flavor, presentation, 
+                and freshness, giving customers a beautiful and 
+                memorable food experience.
+            </p>
+            <div class="about-features">
+                <div>
+                    <h3>Fresh</h3>
+                    <p>Prepared with care for every order.</p>
+                </div>
+                <div>
+                    <h3>Custom</h3>
+                    <p>Perfect for birthdays and special events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="menu" class="menu">
+        <div class="section-header">
+            <p class="section-tagline">Our Menu</p>
+            <h2>Sweet treats and homemade favorites</h2>
+            <p>
+                Explore some of our freshly made cakes, 
+                desserts, snacks, and party treats.
+            </p>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="./assets/brownies-milk.jpg" alt="chocolate brownies">
+                <div class="menu-card-content">
+                    <h3>Chocolate Brownies</h3>
+                    <p>Rich, soft, chocolatey brownies made for dessert lovers.</p>
+                </div>
+            </div>
+
+             <div class="menu-card">
+                <img src="./assets/rose-cupcakes-box.jpg" alt="cupcakes">
+                <div class="menu-card-content">
+                    <h3>Rose Cupcakes</h3>
+                    <p>Soft cupcakes topped with beautiful cream frosting.</p>
+                </div>
+            </div>
+
+             <div class="menu-card">
+                <img src="./assets/chocolate-chip-cookies.jpg" alt="chocolate chip cookies">
+                <div class="menu-card-content">
+                    <h3>Chocolate Chip Cookies</h3>
+                    <p>Classic homemade cookies with generous chocolate chunks.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <p class="section-tagline">Contact Us</p>
+            <h2>Order from Food Bliss</h2>
+            <p>Have a birthday, gathering, or sweet craving coming up?
+                Send us a message and we'll help you with your order.
+            </p>
+        </div>
+
+       <div class="contact-container">
+        <div class="contact-info">
+            <h3>Get in touch</h3>
+            <p>
+                Message Food Bliss for cakes, desserts, snacks, custom treats,
+                and party orders.
+            </p>
+
+        
+
+        <div class="contact-detail">
+                <strong>Email:</strong>
+                <a href="mailto:foodbliss53@gmail.com">
+                    foodbliss53@gmail.com
+                </a>
+        </div>
+
+            <div class="contact-detail">
+                <strong>Instagram:</strong>
+                <a href="https://www.instagram.com/food._bliss" target="_blank">
+                    @food._bliss
+                </a>
+            </div>
+        </div>
+
+        <form id="order-form" class="contact-form">
+            <input type="text" id="customer-name" placeholder="Your Name" required> 
+            <input type="tel" id="customer-phone" placeholder="Phone Number">
+            <input type="email" id="customer-email" placeholder="Your Email" required>
+
+            <select id="order-type" required>
+                <option value="">What would you like to order?</option>
+                <option value="Cake">Cake</option>
+                <option value="Cupcakes">Cupcakes</option>
+                <option value="Brownies">Brownies</option>
+                <option value="Cookies">Cookies</option>
+                <option value="Party snacks">Party Snacks</option>
+                <option value="Custom order">Custom Order</option>
+            </select>
+
+            <textarea id="order-message" placeholder="Tell us about your order" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Inquiry</button> 
+            <p id="form-note" class="form-note"></p>  
+        </form>
+        </div>
+    </section>
+
+</main>
+
+<footer><p>
+    &copy; 2026 Food Bliss. All Rights Reserved.
+</p></footer>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
