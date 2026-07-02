@@ -6,6 +6,16 @@ A responsive cafe and bakery landing page build with HTML, CSS, and JavaScript. 
 
 [View Live Site](https://food-bliss.netlify.app/)
 
+## Screenshots
+
+### Desktop Homepage
+
+![Food Bliss desktop homepage](screenshots/foodbliss-homepage.png)
+
+### Menu Section
+
+![Food Bliss menu section](screenshots/foodbliss-menu.png)
+
 # GitHub Repository
 
 [View Repository](https://github.com/hvaji53/food-bliss-landing-page)
